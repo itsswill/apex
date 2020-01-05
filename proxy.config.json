@@ -1,0 +1,11 @@
+{
+  "/tracker/*": {
+    "target":"https://public-api.tracker.gg",
+    "secure":false,
+    "logLevel":"debug",
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/tracker": ""
+    }
+  }
+}
